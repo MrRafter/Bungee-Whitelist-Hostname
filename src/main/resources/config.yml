@@ -1,0 +1,28 @@
+# Plugin Made by MrRafter
+# Thank you for using my plugin
+#This plugin is made to be 100% configurable
+
+# This will be displayed at server startup (MOTD)
+motd-message: "&c&lPlease connect using &b&lmc.example.net"
+
+# Set an image for the server in a URL (Warning: the image has to be 64 x 64)
+favicon-url: "example.com/img.png"
+
+# Message for when the user disconnects it for not using the main ip/domain
+disconnect-message: "&c&lPlease connect using &b&lmc.example.net"
+
+# This will be displayed in the console to inform about the user use %player% to contain the nick of the user
+log:
+  enable: true
+  log-message: "&6&l[&b&lBWH&6&l] &c&lPrevented user &3&l%player% &c&len from logging in using another ip/domain"
+
+# List of protocols in https://wiki.vg/Protocol_version_numbers
+protocol:
+  name: "ExampleServerName 1.8.x - 1.20.x"
+  version: 763
+
+# List of hosts that will be whitelisted
+whitelist-hosts:
+  - example.com
+  - test.example.net
+
