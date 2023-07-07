@@ -6,7 +6,7 @@
 motd-message: "&c&lPlease connect using &b&lmc.example.net"
 
 # Set an image for the server in a URL (Warning: the image has to be 64 x 64)
-favicon-url: "example.com/img.png"
+favicon-url: "https://cdn.discordapp.com/attachments/902530753420755015/1119745416834056222/server-icon.png"
 
 # Message for when the user disconnects it for not using the main ip/domain
 disconnect-message: "&c&lPlease connect using &b&lmc.example.net"
